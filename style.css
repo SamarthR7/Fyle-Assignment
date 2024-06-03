@@ -1,0 +1,360 @@
+
+
+#top h2{
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+
+#top{
+    text-transform: uppercase;
+}
+
+#top .container{
+    padding: 3% 4%;
+}
+
+#top h1{
+    text-align: left;
+    font: normal normal bold 60px/80px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+#top p{
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-transform: none;
+}
+
+#top button {
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 2px;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    font: normal normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+#top button:hover{
+    background: #b60516;
+    color: #FFFFFF;
+}
+.common{
+    display: flex;
+    justify-content: center;
+}
+.popup{
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.popup-content{
+    padding: 2%;
+    height: 362px;
+    width: 450px;
+    background: #FFFFFF;
+
+}
+
+
+
+.row{
+    align-items: center;
+
+}
+#top .flex{
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.close{
+    border-radius: 50%;
+    position: absolute;
+    top:200px;
+    margin-left: 370px;
+    cursor: pointer;
+    background: #FFFFFF;
+    height: 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.model h3{
+    font-size: 24px;
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #2D3142;
+    padding-bottom: 3%;
+    grid-column: span 2;
+}
+
+
+.model input {
+    margin: 3% 0%;
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #6F718F99;
+    border: none;
+    border-bottom: 1px solid #6F718F99;
+    width: 86%;
+}
+.model input:focus{
+    outline: none;
+}
+
+.model input[type=checkbox]{
+    display: inline;
+    margin: 4px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 2px solid #FF3366;
+}
+
+.model input[type=checkbox]:checked{
+    background-color: #FF3366;
+    color: #FF3366
+}
+
+
+
+#whatwedo{
+    padding: 5% 10%;
+}
+
+#whatwedo .wwd{
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    margin-bottom: 4%;
+}
+
+#whatwedo h1{
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+#whatwedo .row{
+    margin-bottom: 4%;
+}
+
+.owl-dots{
+    padding-top: 1.5%;
+    position: absolute;
+}
+
+.owl-dots .active span{
+    background-color: #FF3147 !important;
+}
+
+.owl-stage{
+    padding-left: 0 !important;
+}
+
+.on-top{
+    text-align: center;
+    vertical-align: middle;
+    width:290px;
+    height:526px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    color: #F6F6F6;
+    opacity: 0;
+    transition: all 0.9 ease;
+    border-radius: 5px;
+    
+}
+
+.on-top:hover{
+    opacity: 1;
+}
+.imgbtn{
+    background: #FFFFFF;
+    color: #FF3147;
+    font: bold !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important ;
+}
+.imgtxt{
+    font-size: 24px !important;
+    color: #FFFFFF !important;
+}
+.imgtxt2{
+    padding-bottom: 10px !important;
+}
+.webimage{
+    margin-top:116px !important ;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height:57.38px !important ;
+    width: 57.18px !important;
+
+}
+
+#wcu{
+    margin-top: 5%;
+}
+
+#wcu h1{
+    margin: 1.5%;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+
+#wcu .whyus{
+    font: normal normal 600 24px/26px Cormorant SC;
+    color: #FF3147;
+}
+
+#wcu .row{
+    padding: 5% 5%;
+}
+#wcu .title{
+    padding-top: 7%;
+    text-align: left;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+#wcu .body{
+    text-align: left;
+    font: normal normal normal 16px/26px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+#our-proj{
+    margin: 7%;
+}
+#our-proj h1, #growth h1, #feedback h1{
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#our-proj .title, #growth .title, #feedback .title{
+    margin-bottom: 2%;
+    font: normal normal 600 24px/26px Cormorant SC;
+    color: #FF3147;
+}
+
+#our-proj .row, #growth .row{
+    padding: 5%;
+}
+
+#our-proj .slider{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#our-proj .one .title{
+    text-align: left;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+#our-proj .body{
+    text-align: left;
+    font: normal normal normal 16px/28px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.slider .one{
+    margin: 2%;
+    padding: 6% 5%;
+    background-color: #F6F6F6;
+}
+.slider .one:hover{
+    background-color: #FF3147;
+}
+.slider.title:hover{
+    color: white;
+}
+
+#growth{
+    text-align: center;
+}
+#growth img{
+    margin: 8% 0;
+}
+#growth .num{
+    font: normal normal 300 60px/65px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    
+}
+
+#growth .body{
+    text-transform: none;
+    text-align: center;
+    font: normal normal 300 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+#growth .col-lg-3:hover{
+    transform: scale(1.01);
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
+}
+
+#feedback .container{
+    padding: 7%;
+}
+#feedback h2{
+    padding: 4% 12% 0;
+    text-align: left;
+    font: normal normal normal 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+#feedback .examp{
+    padding-top: 0;
+    text-align: left;
+    font: normal normal 300 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #808080;
+}
+
+#feedback span{
+    text-align: left;
+    font: normal normal bold 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+
+#footer{
+    background-color: #FF3147;
+}
+#footer .row{
+    padding: 8% 5%;
+}
+

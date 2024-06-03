@@ -1,0 +1,60 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.model h1{
+    font-size: 2px;
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #2D3142;
+    padding-bottom: 1%;
+    grid-column: span 2;
+}
+.model-container{
+    text-align: center;
+    opacity: 100;
+    visibility: visible;
+    width: calc(100% - 60px);
+    max-width: 600px;
+    padding: 4% 5%;
+}
+
+.model{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.model input {
+    margin: 3% 0%;
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #6F718F99;
+    border: none;
+    border-bottom: 1px solid #6F718F99;
+    width: 86%;
+}
+.model input:focus{
+    outline: none;
+}
+
+.model input[type=checkbox]{
+    display: inline;
+    margin: 4px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 2px solid #FF3366;
+}
+
+.model input[type=checkbox]:checked{
+    background-color: #FF3366;
+    color: #FF3366
+}
+
+.model .flex{
+    display: flex;
+    gap: 10px;;
+
+}
